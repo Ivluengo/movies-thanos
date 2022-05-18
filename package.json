@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass -w src/styles/sass:src/styles/css",
-    "purge": "purgecss --css src/styles/css/style.css --content index.html -o dist/",
-    "autoprefix": "postcss dist/*.css --use autoprefixer -d dist/final/"
+    "purge": "purgecss --css src/styles/css/style.css --content index.html -o docs/",
+    "autoprefix": "postcss docs/*.css --use autoprefixer -d docs/"
   },
   "keywords": [],
   "author": "",
